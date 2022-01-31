@@ -1,7 +1,7 @@
-import Phaser from 'phaser'
+import Phaser from "phaser";
 
-import { BootScene, LobbyScene, GameScene } from '../scenes'
-import { WORLD } from '../config/common'
+import { BootScene, LobbyScene, GameScene } from "../scenes";
+import { WORLD } from "../config/common";
 
 /**
  * Pathes
@@ -9,9 +9,9 @@ import { WORLD } from '../config/common'
 
 export const path = {
   assets: {
-    graphics: '/img',
+    graphics: "/flappybird/img",
   },
-}
+};
 
 /**
  * Depth levels
@@ -32,17 +32,17 @@ const clientConfig: Phaser.Types.Core.GameConfig = {
   width: WORLD.WIDTH,
   height: WORLD.HEIGHT,
   type: Phaser.AUTO,
-  parent: 'game',
+  parent: "game",
   physics: {
-    default: 'arcade',
+    default: "arcade",
     arcade: {
       gravity: { y: 0 },
       debug: false,
     },
   },
   scene: [BootScene, LobbyScene, GameScene],
-  title: 'Flappy Bird',
-  version: '1.0.0',
-}
+  title: "Flappy Bird",
+  version: "1.0.0",
+};
 
-export default clientConfig
+export default clientConfig;
