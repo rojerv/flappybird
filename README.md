@@ -1,5 +1,7 @@
 # Flappy bird
 
+You can play [here](https://rojerv.github.io/flappybird/)
+
 Phaser + typeccript + vite
 
 ## Production
