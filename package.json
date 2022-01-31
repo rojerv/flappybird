@@ -1,0 +1,16 @@
+{
+  "name": "flappybird",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "phaser": "^3.55.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^2.7.13"
+  }
+}
